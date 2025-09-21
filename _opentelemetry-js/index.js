@@ -2,8 +2,8 @@ const { NodeSDK } = require("@opentelemetry/sdk-node");
 
 const {
   OTLPTraceExporter
-} = require("@opentelemetry/exporter-trace-otlp-proto");
-
+} = require("@opentelemetry/exporter-trace-otlp-http");
+// exporter-trace-otlp-proto
 const {
   getNodeAutoInstrumentations
 } = require("@opentelemetry/auto-instrumentations-node");
